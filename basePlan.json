@@ -1,0 +1,9 @@
+[
+  {"id": 211, "week": 1, "program": "Base", "day": 1, "activity": "Rest", "instructions": "", "type": "rest"},
+  {"id": 212, "week": 1, "program": "Base", "day": 2, "activity": "Run 1.5 miles", "instructions": "", "type": "run"},
+  {"id": 213, "week": 1, "program": "Base", "day": 3, "activity": "Cross Train", "instructions": "", "type": "cross"},
+  {"id": 214, "week": 1, "program": "Base", "day": 4, "activity": "Run 2 miles", "instructions": "", "type": "run"},
+  {"id": 215, "week": 1, "program": "Base", "day": 5, "activity": "Rest", "instructions": "", "type": "rest"},
+  {"id": 216, "week": 1, "program": "Base", "day": 6, "activity": "Cross Train", "instructions": "", "type": "cross"},
+  {"id": 217, "week": 1, "program": "Base", "day": 7, "activity": "Run 2 miles", "instructions": "", "type": "run"}
+]

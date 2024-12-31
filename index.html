@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Run Buddy</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet"> <!-- External CSS -->
+
+</head>
+<body>
+
+    <div class="container">
+      <img src="img/run_buddy_logo.png" style="display: block; width: 100%;">
+        <h3>Prepare for your race with a <i>Run Buddy</i> running plan!</h3>
+        <p>Select your Race Day and Distance below.</p>
+
+        <!-- Race Form -->
+        <form id="raceForm">
+            <div class="form-group">
+                <label for="raceDay">Race Day</label>
+                <input type="date" class="form-control" id="raceDay" required>
+            </div>
+
+            <div class="form-group">
+                <label for="raceDistance">Race Distance</label>
+                <select class="form-control" id="raceDistance" required>
+                    <option value="">Select distance</option>
+                    <option value="5K">5K</option>
+                    <option value="10K">10K</option>
+                    <option value="half">Half Marathon</option>
+                    <option value="marathon">Marathon</option>
+                </select>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block">Calculate Plan</button>
+        </form>
+
+        <!-- Container to display the results after form submission -->
+        <div id="resultContainer" style="display: none;"></div>
+    </div>
+
+    <!-- Bootstrap and JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/calendar.js"></script> <!-- include the 'add to calendar' script -->
+    <script src="js/script.js"></script> <!-- main js file -->
+
+</body>
+</html>

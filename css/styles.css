@@ -1,0 +1,184 @@
+/* Custom CSS for Run Buddy */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #000000;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background: url(../img/carbon_bg.jpg);
+}
+
+.container {
+  max-width: 600px;
+  background: #333333;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 14px 18px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  border: 2px solid #dbf607;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 18px;
+}
+#resultContainer {
+  max-height: 400px; /* Adjust this height as needed */
+  overflow-y: auto;
+  padding: 20px; /* Optional: adds some padding for better readability */
+  padding-top:30px;
+  border: 1px solid #dbf607; /* Optional: adds a border around the container */
+  background-color: #000; /* Optional: adds a background color */
+  border-radius: 20px;
+  color:#dbf607;
+}
+#resultContainer h2 {
+  color: #dbf607;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#resultContainer ul {
+  list-style-type: none;
+  padding: 0;
+}
+#resultContainer li {
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: 20px;
+  
+}
+h3 {
+color: #ffffff;
+font-size:22px;
+line-height: 30px;
+}
+p, label {
+color: #ffffff;
+font-size: 18px;
+line-height: 24px;
+}
+ul li {
+display: flex; /* Use Flexbox for alignment */
+justify-content: space-between; /* Add even spacing */
+align-items: center; /* Vertically center items */
+padding: 10px;
+font-family: Arial, sans-serif; /* Optional: Add a clean font */
+color: #fff;
+}
+
+/* Align day number, date, and activity in columns */
+ul li span {
+flex: 1; /* Allow each span to take equal space */
+text-align: left; /* Align content to the left for uniformity */
+}
+
+/* Optional: Style specific spans */
+ul li .day-number {
+flex: 0.5; /* Adjust width for day numbers */
+font-weight: bold; /* Make it stand out */
+}
+
+ul li .date {
+flex: 1.2; /* Adjust width for dates */
+text-align: center;
+}
+
+ul li .activity {
+flex: 2; /* Adjust width for activities */
+text-align: left;
+}
+
+/* Alternate background colors for better readability */
+ul li:nth-child(odd) {
+background-color: #f0f0f0;
+}
+
+ul li:nth-child(even) {
+background-color: #333333;
+}
+
+ul li.run {
+background-color: #dbf607;
+background-image: url('../img/run_icon.png');
+background-position: right 6px center;
+background-size: 54px;
+background-repeat: no-repeat;
+color: #000;
+}
+ul li.race {
+background-color: #dbf607;
+color: #000;
+border: 1px solid #dbf607;
+background-image: url('../img/run_icon.png');
+background-position: right 6px center;
+background-size: 54px;
+background-repeat: no-repeat;
+font-size: 18px;
+font-weight: bold;
+}
+ul li.rest {
+background-color: #333333;
+background-image: url('../img/rest_icon.png');
+background-position: right 6px center;
+background-size: 54px;
+background-repeat: no-repeat;
+border: 1px solid #dbf607;
+color: #fff;
+}
+ul li.cross {
+background-color: #36b6fa;
+background-image: url('../img/cross_icon.png');
+background-position: right 6px center;
+background-size: 54px;
+background-repeat: no-repeat;
+}
+ul li.long {
+background-color: #8b9c04;
+background-image: url('../img/run_icon.png');
+background-position: right 6px center;
+background-size: 54px;
+background-repeat: no-repeat;
+}
+ul li.walk {
+background-color: #8b9c04;
+background-image: url('../img/walk_icon.png');
+background-position: right 6px center;
+background-size: 54px;
+background-repeat: no-repeat;
+}
+.reset-button {
+font-family: 'Poppins', sans-serif;
+font-weight: 600; /* Use a bold version for emphasis */
+}
+.reset-button {
+margin-top: 20px;
+margin-bottom: 20px;
+padding: 10px 20px;
+background-color: #007bff;
+color: white;
+border: none;
+cursor: pointer;
+font-size: 16px;
+border-radius: 4px;
+}
+.reset-button:hover {
+background-color: #0056b3;
+}
+
+.btn-success {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+
